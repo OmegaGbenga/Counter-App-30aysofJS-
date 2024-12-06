@@ -1,0 +1,87 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, purple, green);    
+}
+.counterwrapper{
+    height: 400px;
+    width: 300px;
+    border: 2px solid black;
+    background-color: grey;
+    border-radius: 10px;
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.counter-screen{
+    height: 150px;
+    width: 100%;
+    color: white;
+    background-color: rgb(91, 91, 239);
+    border:3px solid silver;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.counter-input{
+    height: 200px;
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+img{
+    height: 40px;
+    width: 40px;
+    object-fit: contain;
+    cursor: pointer;
+   
+}
+.counter-reduce button{
+    height: 80px;
+    width: 80px;
+    border: 1px black solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    background-color:gray;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 80px;
+    color:black;
+    
+}
+.counter-increase button{
+    height: 80px;
+    width: 80px;
+    border: 1px black solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    background-color:gray;
+    border-radius: 10px;
+    cursor: pointer;
+    color: black;
+    font-size: 80px;
+}
+.reset button{
+    height: 80px;
+    width: 80px;
+    background-color: gray;
+    color: black;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 1px solid black;
+    cursor: pointer;
+}
